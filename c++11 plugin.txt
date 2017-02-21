@@ -1,0 +1,13 @@
+
+
+{
+"cmd": ["g++.exe", "-std=c++11", "${file}", "-o", "a.exe"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.c"
+}
+
+Save the file as "C++.sublime-build" in "<Sublime Text AppData folder>\Packages\User".
+On Windows AppData folder is: C:\Users\<username>\AppData\Roaming\Sublime Text 3
+On Mac: ~/Library/Application Support/Sublime Text 3
+On Linux: ~/.config/sublime-text-3
