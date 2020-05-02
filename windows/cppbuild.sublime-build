@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "g++ \"$file_name\" -o \"$file_base_name\" && \"$file_base_name\" < C:\\Users\\Ovishek\\Documents\\input.txt > C:\\Users\\Ovishek\\Documents\\output.txt"
+}
